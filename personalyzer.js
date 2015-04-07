@@ -61,7 +61,7 @@ prsn_controls.style['-moz-transition'] = 'all 100ms ease';
 prsn_controls.style['-ms-transition'] = 'all 100ms ease';
 prsn_controls.style['-o-transition'] = 'all 100ms ease';
 prsn_controls.style['transition'] = 'all 100ms ease';
-prsn_controls.style.opacity = '0.2';
+prsn_controls.style.opacity = '0.3';
 prsn_controls.style.display = 'none';
 
 var prsn_play_btn = document.createElement('img');
@@ -349,7 +349,7 @@ prsn_addEventListener(document.getElementById('prsn'), 'mouseover', function(){
 });
 
 prsn_addEventListener(document.getElementById('prsn'), 'mouseout', function(){
-	document.getElementById('prsn_ctrl').style.opacity = '0.2';
+	document.getElementById('prsn_ctrl').style.opacity = '0.3';
 });
 
 
